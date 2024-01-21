@@ -67,8 +67,7 @@ Requires:	pkgconfig(xcb-icccm)
 Development files for %{name}.
 
 %prep
-%autosetup -p1 %{?snapshot:-n %{name}-master}
-
+%autosetup -n wlroots-%{version} -p1
 %build
 %meson  \
         -Dxcb-errors=disabled \
