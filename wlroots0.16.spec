@@ -78,9 +78,9 @@ Development files for %{name}.
 %meson_install
 
 %files -n %{libname}
-%{_libdir}/lib%{name}.so.%{major}*
+%{_libdir}/libwlroots.so.%{major}*
 
 %files -n %{devname}
 %{_includedir}/wlr
-%{_libdir}/lib%{name}.so
-%{_libdir}/pkgconfig/%{name}.pc
+%{_libdir}/libwlroots.so
+%{_libdir}/pkgconfig/wlroots.pc
