@@ -1,10 +1,10 @@
-%define major 11
-%define libname %mklibname wlroots0.16 %{major}
-%define devname %mklibname -d wlroots0.16
+%define major 12
+%define libname %mklibname wlroots0.17 %{major}
+%define devname %mklibname -d wlroots0.17
 #define snapshot 20211107
 
-Name:		wlroots0.16
-Version:	0.16.2
+Name:		wlroots0.17
+Version:	0.17.4
 Release:	1
 Summary:	Compat package wlroots016.A modular Wayland compositor library
 License:	MIT
