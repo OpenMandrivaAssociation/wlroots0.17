@@ -1,10 +1,10 @@
-%define major 11
-%define libname %mklibname wlroots0.16 %{major}
-%define devname %mklibname -d wlroots0.16
+%define major 12
+%define libname %mklibname wlroots0.17 %{major}
+%define devname %mklibname -d wlroots0.17
 #define snapshot 20211107
 
-Name:		wlroots0.16
-Version:	0.16.2
+Name:		wlroots0.17
+Version:	0.17.4
 Release:	1
 Summary:	Compat package wlroots016.A modular Wayland compositor library
 License:	MIT
@@ -14,6 +14,7 @@ Source0:	https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/%{version}/wlr
 BuildRequires:	pkgconfig(libcap)
 BuildRequires:	pkgconfig(libinput)
 BuildRequires:	pkgconfig(libpng)
+BuildRequires:  pkgconfig(libliftoff)
 BuildRequires:	pkgconfig(xkbcommon)
 BuildRequires:	pkgconfig(xwayland)
 BuildRequires:	pkgconfig(libseat)
@@ -25,6 +26,7 @@ BuildRequires:	pkgconfig(systemd)
 BuildRequires:	pkgconfig(gbm)
 BuildRequires:	pkgconfig(egl)
 BuildRequires:	pkgconfig(glesv2)
+BuildRequires:  pkgconfig(libdisplay-info)
 BuildRequires:	pkgconfig(libudev)
 BuildRequires:	pkgconfig(systemd)
 BuildRequires:	pkgconfig(libdrm)
