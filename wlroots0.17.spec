@@ -5,7 +5,7 @@
 
 Name:		wlroots0.17
 Version:	0.17.4
-Release:	1
+Release:	2
 Summary:	Compat package wlroots016.A modular Wayland compositor library
 License:	MIT
 URL:		https://gitlab.freedesktop.org/wlroots/wlroots/
